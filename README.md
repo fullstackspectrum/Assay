@@ -2,6 +2,8 @@
 
 A CLI tool that fetches vulnerability scan data from the [Cloudsmith API](https://help.cloudsmith.io/reference) and produces a per-repository summary report — either as a Rich table in the terminal or as machine-readable JSON.
 
+Combine this with [Vulnly](https://pypi.org/project/vulnly/) to generate beautified Cloudsmith repository summaries. 
+
 ## Features
 
 - Paginated fetching of all vulnerability scans for a repository
