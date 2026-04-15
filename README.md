@@ -67,6 +67,8 @@ Combining the script with [Vulnly](https://pypi.org/project/vulnly/) is a great 
 python repo-vuln-summary.py --owner <org-slug> --repo <repo-slug> --output json | vulnly -
 ```
 
+<img src="example.jpg">
+
 ## Arguments
 
 | Argument | Required | Default | Description |
