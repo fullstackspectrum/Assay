@@ -59,6 +59,14 @@ JSON output is written to stdout with all progress/status messages on stderr, so
 python repo-vuln-summary.py --owner <org-slug> --repo <repo-slug> --output json | jq .
 ```
 
+## Vulnly
+
+Combining the script with [Vulnly](https://pypi.org/project/vulnly/) is a great way to generate beautified HTML reports. To do this, simply output as JSON and pass into Vulnly as stdin using ```-``` flag. 
+
+```bash
+python repo-vuln-summary.py --owner <org-slug> --repo <repo-slug> --output json | vulnly -
+```
+
 ## Arguments
 
 | Argument | Required | Default | Description |
