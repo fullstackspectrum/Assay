@@ -1,4 +1,16 @@
-# Assay
+<h1 align="center">Assay</h1>
+
+<p align="center">
+  <a href="https://github.com/fullstackspectrum/Assay/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/fullstackspectrum/Assay?style=for-the-badge&logo=github&color=2ea44f"></a>
+  <a href="https://github.com/fullstackspectrum/Assay/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/fullstackspectrum/Assay/total?style=for-the-badge&logo=github&color=0969da"></a>
+  <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <a href="https://docs.astral.sh/uv/"><img alt="Runs with uv" src="https://img.shields.io/badge/runs%20with-uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white"></a>
+  <a href="https://osv.dev"><img alt="OSV data" src="https://img.shields.io/badge/data-OSV-4285F4?style=for-the-badge&logo=google&logoColor=white"></a>
+  <img alt="Unofficial" src="https://img.shields.io/badge/Cloudsmith-unofficial-orange?style=for-the-badge">
+</p>
+
+> [!WARNING]
+> **Assay is not an official Cloudsmith tool.** It is an independent, community project and is not developed, endorsed or supported by Cloudsmith Ltd. Use it at your own risk, and please don't raise issues about it with Cloudsmith support. "Cloudsmith" is a trademark of Cloudsmith Ltd.
 
 A CLI tool that summarises [OSV](https://osv.dev) vulnerability data from [Cloudsmith](https://cloudsmith.com) across a whole **workspace** or a single **repository**. Output is a rich terminal report or machine-readable JSON.
 
@@ -221,6 +233,10 @@ Workspace reports also include a `repositories` array with the same per-severity
 | `GET /v2/workspaces/{workspace}/repos/{repo}/vulnerabilities/packages/` | OSV vulnerability summary for every package in a repository |
 
 See the Cloudsmith docs for the [workspace](https://docs.cloudsmith.com/api/workspaces/vulnerabilities/packages/list) and [repository](https://docs.cloudsmith.com/api/workspaces/vulnerabilities/repo/packages/list) endpoints.
+
+## Disclaimer
+
+Assay is an unofficial tool. It is not affiliated with, endorsed by or supported by Cloudsmith Ltd. It uses Cloudsmith's public API, and its output depends on that API, which may change without notice. Report problems with Assay in this repository's [issues](https://github.com/fullstackspectrum/Assay/issues), not to Cloudsmith support.
 
 ## License
 

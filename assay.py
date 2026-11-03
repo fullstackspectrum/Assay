@@ -27,7 +27,7 @@ from rich.rule import Rule
 from rich.table import Table
 from rich.text import Text
 
-__version__ = "2.0.0"
+__version__ = "1.0.0"
 
 # --- Configuration ---
 BASE_API = os.environ.get("CLOUDSMITH_API_HOST", "https://api.cloudsmith.io").rstrip("/")
